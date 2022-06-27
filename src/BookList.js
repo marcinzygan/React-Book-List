@@ -1,7 +1,18 @@
 import React from "react";
+import Book from "./Book";
 
 const BookList = () => {
-  return <section>This is a book app</section>;
+  return (
+    <section className="booklist">
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+    </section>
+  );
 };
 
 export default BookList;
